@@ -1,0 +1,17 @@
+==========================================================================
+												https://qaautomation.expert/2020/11/26/cucumber-tutorials/
+==========================================================================
+
+1) A Step Definition is a Java method with an expression that links it to one or more Gherkin steps. 
+2) When Cucumber executes a Gherkin step in a scenario, it will look for a matching step definition to execute.
+3) Cucumber finds the Step Definition file with the help of the Glue code in Cucumber Options.
+4) By storing state in instance variables, a step definition can transfer state to a subsequent step definition.
+
+
+Once the Feature file is created, we need to create a class called Runner class to run the tests. 
+This class will use the JUnit annotation @RunWith(), which tells JUnit what is the test runner class.
+
+We cannot run a Feature file on its own in a cucumber-based framework. We need to create a Java class, which will run the Feature File. 
+It is the starting point for JUnit to start executing the tests. TestRunner class is created under src/test/java.
+ In this tutorial, Cucumber uses the JUnit framework to run the tests. Apart from JUnit, 
+ we can also use the TestNG Test Runner class to run the cucumber tests. 
