@@ -1,4 +1,4 @@
 First changes
 Second time
 Third time in git
-Fourth commit in local
+Fourth commit in local.
