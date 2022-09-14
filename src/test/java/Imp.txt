@@ -4,7 +4,7 @@ Ctrl + shift + F === To format the xml file.
 
 https://jsoneditoronline.org/
 
-
+clapingo
 
 =======Cucumber Tutorials Java===================
 
@@ -30,6 +30,12 @@ https://opensource-demo.orangehrmlive.com/
 
 ====================Git Youtube Channel================
 https://www.youtube.com/c/LeelaWebDev/featured
+
+
+
+TYPESCRIPT FOR BEGINNERS (udemy.com)
+
+
 
 
 
