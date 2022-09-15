@@ -5,4 +5,7 @@ package com.java.streams;
 public interface MyFunctionalInterface {
 	
 		void add();
+		
+		default void a() {
+		}
 }

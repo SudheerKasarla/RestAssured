@@ -60,6 +60,59 @@ public class ConsumerExample {
 		names2.forEach(consumer1.andThen(consumer2));
 		
 		
+		
+		//==================================================
+		
+		
+		Consumer<String> cons1 = (name) -> {System.out.println(name);};
+		cons1.accept("Consumer preference is.....");
+		
+		cons1.andThen(cons1).accept("Consumer....");
+		
+		
+		//===================================================
+		
+		System.out.println("-----------------------------------------------------------------------------");
+		
+		Consumer<String> con1 = (element) -> System.out.println("Consumer element is....."+ element);
+		Consumer<String> con2 = (element) -> System.out.println("Consumer element is....."+ element);
+		
+		List<String> elements = new ArrayList<>();
+		elements.add("ABC");
+		elements.add("CDE");
+		elements.add("EFG");
+		elements.add("HIJ");
+		elements.add("KLM");
+		elements.add("MNO");
+		
+		elements.forEach(con1.andThen(con2));
+		
+		System.out.println("=================ABC=====================");
+		
+		
+		elements.forEach((ele) -> 
+		{
+			String str =ele.toLowerCase();
+			System.out.println("Lower is....."+str);
+			
+		});
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

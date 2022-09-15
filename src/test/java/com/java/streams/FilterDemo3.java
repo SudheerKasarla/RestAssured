@@ -10,11 +10,13 @@ public class FilterDemo3 {
 		
 		
 		
-		List<String> words = Arrays.asList("cup",null,"forest");
+		List<String> words = Arrays.asList("cup","","forest");
 		
 		List<String> result = new ArrayList<>();
 		
 		result=words.stream().filter(str -> str!=null).collect(Collectors.toList());
+		
+		words.stream().filter(str -> str.isBlank()).forEach(s-> System.out.println("Boolean is......"+s));
 		System.out.println("Result is..."+ result);
 	}
 
