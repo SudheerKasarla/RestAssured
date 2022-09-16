@@ -6,7 +6,7 @@ public class GetRequest {
 
 	public static void main(String[] args) {
 
-
+  
 		/*
 		 * 1) Build Request 
 		 * 2) Hit Request and get Response 

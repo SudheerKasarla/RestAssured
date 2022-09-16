@@ -12,7 +12,7 @@ public class RequestAndResponseSpecification {
 	public static void main(String[] args) {
 
 	
-
+  
    	    RequestSpecification requestSpecification = RestAssured.given();
 		requestSpecification
 				.log()

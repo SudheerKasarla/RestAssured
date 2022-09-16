@@ -12,7 +12,7 @@ public class RestAssured2 {
 	
 	
 	public  static void main(String[] args) {
-		
+		  
 		RequestSpecification requestspecification = RestAssured.given();
 		requestspecification.log().all();
 		requestspecification.baseUri("https://restful-booker.herokuapp.com/");

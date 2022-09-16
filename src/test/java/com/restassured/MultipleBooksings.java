@@ -13,7 +13,7 @@ public class MultipleBooksings {
 	
 	@BeforeClass
 	public void setUpRequestSpec() {
-		
+		  
 		requestSpecification =RestAssured.given();
 		requestSpecification
 			.log()

@@ -8,7 +8,7 @@ import io.restassured.RestAssured;
 public class PathParametesUnnamed {
 
 	public static void main(String[] args) {
-
+  
 			RestAssured
 				.given()
 					.log()

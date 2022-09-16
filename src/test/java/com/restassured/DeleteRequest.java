@@ -6,7 +6,7 @@ public class DeleteRequest {
 
 	public static void main(String[] args) {
 	
-		
+		  
 		RestAssured 
 		.given()
 			.log()

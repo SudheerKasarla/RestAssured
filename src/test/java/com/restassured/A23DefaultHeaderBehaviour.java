@@ -9,7 +9,7 @@ import io.restassured.config.RestAssuredConfig;
 public class A23DefaultHeaderBehaviour {
 	
 	
-	
+	 
 	
 	@Test
 	public void defaultBehaviour() {

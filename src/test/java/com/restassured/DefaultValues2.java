@@ -8,7 +8,7 @@ import io.restassured.http.ContentType;
 public class DefaultValues2 {
 	
 	
-	
+	  
 	
 
 	@Test

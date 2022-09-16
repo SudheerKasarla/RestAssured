@@ -23,7 +23,7 @@ public class ResponseSpecification {
 	
 	@Test
 	public void createBooking() {
-		
+		  
 		RestAssured
 		.given()
 			.log()
