@@ -1,0 +1,17 @@
+
+
+
+
+1) git reset name_of_file  --------To unstage the file and keep it.
+(In case you want to also remove the given file from the repository (after pushing), use git rm --cached name_of_file. )
+
+
+
+
+
+
+
+git pull origin master --allow-unrelated-histories
+git merge origin origin/master
+... add and commit here...
+git push origin master

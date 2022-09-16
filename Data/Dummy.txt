@@ -1,0 +1,6 @@
+First changes
+Second time
+Third time in git
+Fourth commit in local.
+Fifth commit in local.
+Sixth commit in local
