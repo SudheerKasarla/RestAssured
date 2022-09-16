@@ -6,7 +6,7 @@ public class ExtractResponseAsString {
 
 	public static void main(String[] args) {
 		
-		
+		  
 		//Extract Response body as a string
 		
 	String ExtractResponse=	

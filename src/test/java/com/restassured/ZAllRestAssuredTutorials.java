@@ -33,7 +33,7 @@ import io.restassured.specification.RequestSpecification;
 
 /*
 
-
+  
 		JsonPath expressions can use the dot–notation.
 
 		1)  $.store.book[0].title

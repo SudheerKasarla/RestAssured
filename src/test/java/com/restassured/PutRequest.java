@@ -6,7 +6,7 @@ public class PutRequest {
 
 	public static void main(String[] args) {
 	
-		
+		  
 		
 		//201 - new Resource is created
 		// 200 - Resource is found and Updated

@@ -10,7 +10,7 @@ import io.restassured.http.Header;
 import io.restassured.http.Headers;
 
 public class A22HeadersExample {
-	
+	 
 	
 	
 	/*
