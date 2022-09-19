@@ -2,6 +2,8 @@ package com.restassured.json;
 
 import java.util.Map;
 
+import java.util.stream.*;
+
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -27,6 +29,7 @@ public class A39ConvertJsonToJavaMap {
 				System.out.println(firstname);
 				
 				jsonResponseAsMap.keySet().forEach(k -> System.out.println(k));
+				
 	}
 	
 	

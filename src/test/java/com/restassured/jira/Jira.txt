@@ -1,0 +1,47 @@
+https://developer.atlassian.com/server/jira/platform/cookie-based-authentication/
+
+
+Create an issue in JIRA
+https://docs.atlassian.com/software/jira/docs/api/REST/1000.824.0/
+
+
+Path parameter/Query Parameter/Header Parameter
+
+
+
+Path Parameter === Anything which is in curly braces, It is path parameter.
+Query Parameter === Anything which is in question parameter.
+
+
+
+
+
+------------------------------------------OAuth 2.0--------------------------------------------
+OAuth --- Where you can signin with the help of Signin with Google /Facebook 
+
+
+Client -- BookMyShow
+ClientID - ID that identifies the client
+Client secret ID --- Bookmyshow registers this with google
+Resource Owner -- Human
+Resource/Authorization Server ---- Google
+
+
+User sign into google by hitting google authorization server and get code.
+Application will use this code to hit google resource server in back end to get (Access token, First name, last name, email)
+Application grants access to user by validating access token.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

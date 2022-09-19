@@ -1,0 +1,49 @@
+{
+  "instructor" : "Sudheer Reddy",
+  "url"  : "",
+  "services" : "Automation",
+  "expertise" : "High level",
+  "Courses" : {
+    "webAutomation" :[
+          {
+            "courseTitle" : "Selenium webdriver Java",
+            "price" : "40"
+      
+         },
+         {
+            "courseTitle" : "Cypress",
+            "price" : "80"
+      
+         },
+         {
+            "courseTitle" : "Protractor",
+            "price" : "40"
+      
+         }
+    ]
+    ,
+    "api" : [ {
+            "courseTitle" : "Rest Assured Automation using Java",
+            "price" : "4000"
+      
+         },
+         {
+            "courseTitle" : "SoapUI",
+            "price" : "2000"
+      
+         },
+         {
+            "courseTitle" : "RestSharp",
+            "price" : "8000"
+      
+         }],
+    "mobile" : [
+      {
+        "courseTitle" : "Rest Assured for Java",
+        "price" : "100"
+      }
+    ]
+    
+  },
+  "linkedIn" : "Https://linkedin.com/in"
+}
