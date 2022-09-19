@@ -8,7 +8,7 @@ import io.restassured.specification.RequestSpecification;
 public class PathParameterExample {
 
 
-	public static void main(String[] args) {
+	
 
 		  
 	@Test
