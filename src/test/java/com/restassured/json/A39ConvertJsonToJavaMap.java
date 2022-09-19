@@ -37,7 +37,8 @@ public class A39ConvertJsonToJavaMap {
 	@Test
 	public void convertNestedJsonToJavaMap() {
 		
-		Map jsonResponseAsMap = RestAssured
+	
+		Map<?, ?> jsonResponseAsMap = RestAssured
 										
 					.given()
 					.log()

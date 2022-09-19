@@ -47,6 +47,8 @@ public class MeasureResponseTime {
 		   response.getTimeIn(TimeUnit.SECONDS);
 		   
 		   
+		   
+		   
 		   //Assertions
 		   
 		   
