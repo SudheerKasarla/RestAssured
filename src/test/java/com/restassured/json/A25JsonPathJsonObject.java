@@ -32,6 +32,7 @@ public class A25JsonPathJsonObject {
 		JsonPath jp =new JsonPath(jsonObject);
 		String firstName= jp.getString("firstName");
 	
+	
 		System.out.println("Firstname is..." + firstName);
 		
 		int age = jp.getInt("Age");

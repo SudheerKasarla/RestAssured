@@ -27,7 +27,7 @@ public class ComplexJsonParse {
 		
 		String title= jsonpath.getString("courses[0].title");
 		
-	//	System.out.println("Title is...."+title);
+		System.out.println("Title is...."+title);
 		
 		
 		//Print all course title

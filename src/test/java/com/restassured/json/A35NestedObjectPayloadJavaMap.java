@@ -40,7 +40,8 @@ public class A35NestedObjectPayloadJavaMap {
 				.log()
 				.all()
 				.body(jsonObjectPayload)
-				.get();
+				.when()
+				.get().then().log().all();
 	}
 
 }

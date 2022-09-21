@@ -15,6 +15,7 @@ https://qaautomation.expert/2020/11/26/cucumber-tutorials/
 ==============Rest API Project Url================
 
 https://dummy.restapiexample.com/#
+https://demoqa.com/swagger/#/
 
 
 
