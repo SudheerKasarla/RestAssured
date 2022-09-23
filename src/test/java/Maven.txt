@@ -20,3 +20,21 @@ archetype:generate : Generate a new project from an archetype.
 
 ArtifactId - is your project name.
 GroupId - is your package name.
+
+
+
+
+-----------------------------------------
+If you want to run only specific test cases based on tags from cmd prompt. Then 
+
+mvn test -Dcucumber.options ="--tags @AddPlace"
+
+-D - Parameter
+cucumber.options = cucumber options from TestRunner.
+--tags =  Tags from testrunner.
+
+
+
+
+
+

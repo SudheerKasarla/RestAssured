@@ -19,6 +19,10 @@ Query Parameter === Anything which is in question parameter.
 ------------------------------------------OAuth 2.0--------------------------------------------
 OAuth --- Where you can signin with the help of Signin with Google /Facebook 
 
+1) OAuth 2.0 comes with multiple grant types.
+2) Authorization code and client credentials are the most commonly used Grant types for OAuth.
+3) Back end implementation of Authorization code with different layers of security.
+4) 
 
 Client -- BookMyShow
 ClientID - ID that identifies the client
@@ -29,7 +33,27 @@ Resource/Authorization Server ---- Google
 
 User sign into google by hitting google authorization server and get code.
 Application will use this code to hit google resource server in back end to get (Access token, First name, last name, email)
-Application grants access to user by validating access token.
+Application grants access to user by validating access token and access token is stored in browser.
+ 
+ 
+ Parameters
+ Scope(Application i.e client) : is what details it needs from that owner(Human).
+ auth_url : Which server url it is accessing i.e google and facebook.
+ client_id : when bookmyshow registers with the google.
+ response_type: code i.e one time authorization code
+ redirect_uri : which url it needs to reirect post the access i.e bookmyshow.
+ 
+ 
+ 
+ 
+ 
+ Exchangecode:
+ --------------------
+ code
+ client_id
+ client_secret
+ redirect_uri
+ grant_type  ---- authorization_code
  
 
 
