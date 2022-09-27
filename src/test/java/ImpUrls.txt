@@ -1,3 +1,4 @@
+
 Ctrl + shift + F === To format the xml file.
 
 
@@ -24,8 +25,6 @@ https://demoqa.com/swagger/#/
 
 https://opensource-demo.orangehrmlive.com/
 
-https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
-
 
 
 
@@ -43,6 +42,10 @@ TYPESCRIPT FOR BEGINNERS (udemy.com)
 ==========================Automation Practice Url's========================
 https://rahulshettyacademy.com/AutomationPractice/
 
+
+
+
+------------------------------------------------
 
 
 

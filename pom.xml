@@ -152,14 +152,38 @@
 					<artifactId>maven-resources-plugin</artifactId>
 					<version>3.0.2</version>
 				</plugin>
+
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.8.0</version>
+					<version>3.10.1</version>
+					<configuration>
+						<!--Make sure you update the below config as per Java Version installed -->
+						<source>1.8</source>
+						<target>1.8</target>
+						<encoding>UTF-8</encoding>
+
+						<!-- Generate TestNG runners instead of JUnit ones. -->
+						<useTestNG>false</useTestNG>
+					</configuration>
 				</plugin>
+
+				
+
+
 				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.22.1</version>
+					<version>3.0.0-M7</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
 				</plugin>
+
+
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>
