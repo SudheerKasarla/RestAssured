@@ -1,1 +1,2 @@
 Sample Test file
+Adding line from git.com to see git conflict
