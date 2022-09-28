@@ -1,2 +1,6 @@
 Sample Test file
+
 This will create conflict while adding a file
+=======
+Adding line from git.com to see git conflict
+
