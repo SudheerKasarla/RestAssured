@@ -1,0 +1,17 @@
+
+Collections 
+-----------------------------------------------------------------------
+https://www.vogella.com/tutorials/JavaCollections/article.html
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------Maven--------------------------------
+https://www.lambdatest.com/blog/getting-started-with-maven-for-selenium-testing/

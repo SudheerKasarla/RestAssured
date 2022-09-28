@@ -65,8 +65,9 @@ public class A29JsonArrayAndNestedJsonArray {
 		
 		List<Object> list = jsPath.getList("[0].Address.City");
 		
-		System.out.println(" List of cities...." + list);
-		System.out.println("List cities is...." + jsPath.getList("Address.City"));
+		System.out.println(" List of cities..Address.City.." + list);
+		System.out.println("List cities is.......(Address.City)...." + jsPath.getList("[1].Address.City"));
+		
 		
 	}
 

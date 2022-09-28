@@ -61,7 +61,7 @@ public class A24JsonPathExamples {
 		System.out.println("$ is......"+(Object)jsonPath.get("$"));
 		System.out.println("$ getString is......"+(Object)jsonPath.getString("$"));
 		System.out.println("Get string is...."+(Object)jsonPath.getString(""));
-		System.out.println("Get is....."+(Object)jsonPath.get());
+		System.out.println("Get is....."+(Object)jsonPath.get());  
 		
 		
 	}

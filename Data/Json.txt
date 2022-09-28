@@ -17,7 +17,7 @@
     "id" : 3,
     "first_name" : "Robin3",
     "last_name"  : "Hood3",
-    "email"      : "abcxyz3@gmail.com",
+    "email"          : "abcxyz3@gmail.com",
     "gender"     : "Female"
   },
   {

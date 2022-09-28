@@ -1,5 +1,6 @@
 ==========================================================================
 												https://qaautomation.expert/2020/11/26/cucumber-tutorials/
+												https://qaautomation.expert/2021/06/22/integration-of-cucumber-with-selenium-and-testng/
 ==========================================================================
 
 1) A Step Definition is a Java method with an expression that links it to one or more Gherkin steps. 
@@ -15,3 +16,29 @@ We cannot run a Feature file on its own in a cucumber-based framework. We need t
 It is the starting point for JUnit to start executing the tests. TestRunner class is created under src/test/java.
  In this tutorial, Cucumber uses the JUnit framework to run the tests. Apart from JUnit, 
  we can also use the TestNG Test Runner class to run the cucumber tests. 
+ 
+ 
+ 
+ 
+ 1. For Cucumber - To support gherkin in eclipse we need to install plugin.
+ 								Help ->  Eclipse Marketplace -> Natural 0.9
+ 2. Cucumber support- Quickstart template
+ 3. We use src/test/java - write automation test cases.
+ 4. For Jars
+  Cucumber -java and Cucumber-testng
+  5. Feature File
+  6. StepDefinition
+  7. Testng Test Runner
+  
+  
+  Note: Feature files should be created under --> src/test/java
+  
+  
+  TestRunner
+  --------------------
+  Feature - Feature file path
+  Glue -- is the parameter of the stepdefinitions. We need to give package name and need not give any file name
+  
+  
+  
+ 

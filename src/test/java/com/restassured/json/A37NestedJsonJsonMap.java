@@ -11,6 +11,7 @@ import java.util.Map;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 
 public class A37NestedJsonJsonMap {
 
@@ -23,7 +24,7 @@ public class A37NestedJsonJsonMap {
 		firstJsonObject.put("id", 1);
 		firstJsonObject.put("first_name", "Claire");
 		firstJsonObject.put("last_name", "Dennerley");
-		firstJsonObject.put("email", "cdennerley0@uol.com.br");
+		firstJsonObject.put("email", "cdennerley@xyz");
 		firstJsonObject.put("gender", "Male");
 
 		List<String> mobileno = Arrays.asList("123432156", "23456234");
@@ -53,13 +54,13 @@ public class A37NestedJsonJsonMap {
 		javaSkill.put("certifications", allCert);
 
 		skillsList.add(javaSkill);
-
+		secondJsonObject.put("mobileno", mobileno);
 		secondJsonObject.put("skills", skillsList);
 
 		finalPayload.add(firstJsonObject);
 		finalPayload.add(secondJsonObject);
 
-		RestAssured.given().log().all().body(finalPayload).get();
+		RestAssured.given().log().all().body(finalPayload).get().then().log().all().contentType(ContentType.JSON);
 
 		/*
 		 * output

@@ -1,4 +1,4 @@
-package com.restassured.udemyrahul;
+package com.restassured.jsons;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -27,7 +27,7 @@ public class ComplexJsonParse {
 		
 		String title= jsonpath.getString("courses[0].title");
 		
-	//	System.out.println("Title is...."+title);
+		System.out.println("Title is...."+title);
 		
 		
 		//Print all course title

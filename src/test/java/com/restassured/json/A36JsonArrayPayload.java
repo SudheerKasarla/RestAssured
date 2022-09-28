@@ -38,6 +38,7 @@ public class A36JsonArrayPayload {
 				.log()
 				.all()
 				.body(allEmp)
+				.when()
 				.get();
 		
 	}

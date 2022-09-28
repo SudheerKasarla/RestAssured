@@ -60,7 +60,7 @@ public class A30JsonPathWithFilters {
 		File jsonArrayFile =new File(filePath);
 		
 		JsonPath jsonPath =new JsonPath(jsonArrayFile);
-		System.out.println(jsonPath.getString("data[0].first_name"));
+		System.out.println("data.first_name.............."+jsonPath.getString("data.first_name"));
 		
 		
 		

@@ -1,4 +1,4 @@
-package com.restassured.udemyrahul;
+package com.restassured.jsons;
 
 import static org.hamcrest.Matchers.equalTo;
 

@@ -1,0 +1,40 @@
+
+===================================Maven======================================
+
+Maven in 5 minutes.
+
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+
+
+1. is a software project management and build management tool for java frameworks.
+2. Central respository to get dependencies
+3. Maintaining common structure across the organisation.
+4. Plugin for Test framework execution.
+
+Artifact : An artifact is a file, using a JAR, that gets deployed to a maven repository.
+(ArtifactId is your project name)
+GroupId : groupId will identify your project uniquely across all projects.
+archetype:generate : Generate a new project from an archetype.
+
+
+ArtifactId - is your project name.
+GroupId - is your package name.
+
+
+
+
+-----------------------------------------
+If you want to run only specific test cases based on tags from cmd prompt. Then 
+
+mvn test -Dcucumber.options ="--tags @AddPlace"
+
+-D - Parameter
+cucumber.options = cucumber options from TestRunner.
+--tags =  Tags from testrunner.
+
+
+
+
+
+

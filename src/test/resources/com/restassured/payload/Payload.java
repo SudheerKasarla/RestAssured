@@ -68,13 +68,21 @@ public class Payload {
 		return "{\r\n"
 				+ "  \"name\" : \"Learn Rest Assured API\",\r\n"
 				+ "  \"isbn\" : \"bczd\",\r\n"
-				+ "  \"aisle\": \"2766\",\r\n"
+				+ "  \"aisle\": \"2761236\",\r\n"
 				+ "  \"author\" : \"Darren\"\r\n"
 				+ "}";
 	}
 	
 	
 	
-	
+	public static String addBook(String aisle, String isbn)
+	{
+		return "{\r\n"
+				+ "  \"name\" : \"Learn Rest Assured API\",\r\n"
+				+ "  \"isbn\" : \""+isbn+"\",\r\n"
+				+ "  \"aisle\": \""+aisle+"\",\r\n"
+				+ "  \"author\" : \"Darren\"\r\n"
+				+ "}";
+	}
 
 }
