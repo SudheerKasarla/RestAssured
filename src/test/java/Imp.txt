@@ -1,0 +1,54 @@
+Ctrl + shift + F === To format the xml file.
+
+
+https://jsoneditoronline.org/
+
+clapingo
+
+=======Cucumber Tutorials Java===================
+
+https://qaautomation.expert/2020/11/26/cucumber-tutorials/
+
+
+
+==============Rest API Project Url================
+
+https://dummy.restapiexample.com/#
+https://demoqa.com/swagger/#/
+
+
+
+
+
+==============Sample Project Url====================
+
+https://opensource-demo.orangehrmlive.com/
+
+https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F
+
+
+
+
+
+====================Git Youtube Channel================
+https://www.youtube.com/c/LeelaWebDev/featured
+
+
+
+TYPESCRIPT FOR BEGINNERS (udemy.com)
+
+
+
+
+==========================Automation Practice Url's========================
+https://rahulshettyacademy.com/AutomationPractice/
+
+
+
+
+
+
+
+
+
+
