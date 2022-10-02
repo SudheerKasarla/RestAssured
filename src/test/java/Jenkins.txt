@@ -1,0 +1,20 @@
+Run Test cases with Maven pom.xml
+Run test cases though maven CLI
+Run test using bat
+Run Test cases using Jenkins(Using bat file)
+-------------------
+
+Plugins -- Used to run your maven project
+1) maven-compiler-plugin
+2) maven-surefire-plugin
+
+
+
+-----------------------Run test cases though maven CLI
+mvn clean install   (Internally it will execute pom.xml)
+
+
+
+---------------------Run test using bat
+
+Create "bat" file.

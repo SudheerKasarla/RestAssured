@@ -1,4 +1,4 @@
-package com.restassured.jira;
+package com.restassured.jiraand2oauth;
 
 import java.io.File;
 

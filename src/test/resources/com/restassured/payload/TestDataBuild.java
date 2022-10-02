@@ -6,7 +6,8 @@ import java.util.List;
 import com.restassured.pojo.AddPlace;
 import com.restassured.pojo.Location;
 
-public class TestDataBuild {
+public class TestDataBuild 
+{
 	public AddPlace addPlacePayLoad(String name, String language, String address) {
 		AddPlace p = new AddPlace();
 		p.setAccuracy(50);

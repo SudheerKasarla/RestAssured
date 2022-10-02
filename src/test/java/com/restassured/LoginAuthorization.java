@@ -5,20 +5,20 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-public class DefaultValues2 {
+public class LoginAuthorization {
 	
 	
 	  
 	
 
 	@Test
-	public static void createBooking() {
+	public static void CreateBooking() {
 		
 		
 		RestAssured.given()
 		        .log()
 				.all()
-				// .baseUri("https://restful-booker.herokuapp.com/")
+			     .baseUri("https://restful-booker.herokuapp.com/")
 				.basePath("auth") 
 				.contentType(ContentType.JSON)
 				.body("{\r\n"

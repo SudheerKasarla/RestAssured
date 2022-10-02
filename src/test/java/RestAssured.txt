@@ -1,0 +1,29 @@
+=======Header====================
+1. Header are metadata associated with REQUEST and RESPONSE of API.
+2. It may contain Authorization, cookies,body type, proxies, additional data for API to work.
+3. Request and Response both can have associated headers.
+4. Key - Value/s pair.
+
+
+===========================================
+PathParams
+===========================================
+
+
+
+===========================================
+Patch
+===========================================
+
+
+====================JSON -- Javascript object notation=======================
+1) JsonPath is an expression to refer element in a json document.
+2) It can be called as a query language for JSON document.
+
+
+
+ ====================For Serialization==================================
+  we need maven repository 
+  1) Jackson DataBind --- Respository and its dependencies i.e jackson-annotations, jackson-core
+  2) GSon Repository
+ 

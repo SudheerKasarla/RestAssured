@@ -58,6 +58,10 @@ public class MeasureResponseTime {
 		   response.then()
 		   		   .time(Matchers.both(Matchers.greaterThan(1000L))
 		   		   .and(Matchers.lessThan(6000L)));
+		   
+		   response.then().time(Matchers.both(Matchers.greaterThan(1000L))
+				   .and(Matchers.lessThan(3000L))
+				   );
 		
 		   response.then().time(Matchers.lessThan(2L),TimeUnit.SECONDS);
 		    

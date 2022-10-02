@@ -3,11 +3,14 @@ package com.restassured;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.testng.annotations.Test;
+
 import io.restassured.RestAssured;
 
-public class PathParametesUnnamed {
+public class UnnamedPathParameters {
 
-	public static void main(String[] args) {
+	@Test
+	public static void UnNamedPathparameters() {
   
 			RestAssured
 				.given()
@@ -38,7 +41,7 @@ public class PathParametesUnnamed {
 			.then()
 				.log()
 				.all()
-				.statusCode(200);
+				.statusCode(200); 
 		
 	}
 

@@ -1,8 +1,10 @@
 package stepDefinitions;
 
+import java.io.IOException;
+
 import org.junit.runner.RunWith;
 
-import com.restassured.ResponseSpecification;
+
 import com.restassured.payload.TestDataBuild;
 import com.restassured.payload.Utils;
 
@@ -11,15 +13,17 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.junit.Cucumber;
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 
 @RunWith(Cucumber.class)
 public class StepDefinition extends Utils
 {
 	
-	RequestSpecification resquestSpecification;
-	ResponseSpecification responseSpecification;
+	RequestSpecification reqSpec;
+	ResponseSpecification resSpec;
 	Response response;
 	TestDataBuild data = new TestDataBuild();
 
@@ -27,24 +31,29 @@ public class StepDefinition extends Utils
 
 	
 
-	@Given("Add Place Payload")
-	public void add_place_payload() {
+
+	@Given("Add Place Payload with {string} {string} {string}")
+	public void add_place_payload_with(String name, String language, String address) throws IOException 
+	{
+		reqSpec=	RestAssured.given().spec(requestSpecification()).body(data.addPlacePayLoad(name, language, address));
+	}
+
+
+
+	@When("user calls {string} with Post http request")
+	public void user_calls_with_post_http_request(String string) 
+	{
 	    
 	}
-	@When("user calls {string} with Post http request")
-	public void user_calls_with_post_http_request(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
 	@Then("the API call got success with the status code {int}")
-	public void the_api_call_got_success_with_the_status_code(Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	public void the_api_call_got_success_with_the_status_code(Integer int1)
+	{
+	   
 	}
 	@Then("{string} in response body is {string}")
-	public void in_response_body_is(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	public void in_response_body_is(String string, String string2) 
+	{
+	    
 	}
 
 
