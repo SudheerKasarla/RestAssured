@@ -1,0 +1,20 @@
+1) Capture Screenshot of the WebElement.
+2) Open the new Tab on browser
+3) Open new window on browser
+4) Object Loacation
+
+
+WebDriverManager---> No need to download specific browser driver.
+
+
+
+
+ 1) Capture Screenshot of the WebElement.
+	   2) Open the new Tab on browser
+       3) Open new window on browser
+       4) Object Location
+       5) below (): below () is used to find the element below to the specific web element.
+	   6) toLeftOf(): It finds the web element which is left to the specified element.
+	   7) toRightOf(): It finds the web element which is right to the specified web element.
+	   8) above (): It finds the element which is above the specified element.
+	   9) near (): near () target an element that is away from (approx. 50 pixels) from a specified web element.

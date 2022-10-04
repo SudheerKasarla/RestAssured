@@ -1,6 +1,5 @@
 package com.java.streams;
 import java.util.ArrayList;
-import java.util.function.Function;
 import java.util.function.Predicate;
 
 import org.testng.annotations.Test;

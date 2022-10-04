@@ -1,0 +1,116 @@
+.gitattributes define the Git settings for your project repo.
+.gitignore - define file types you donot want under source control.
+
+
+//first time users
+//git clone -b branch_name remote_repo
+git clone -b master https://github.com/prahladamandla/testing.git
+
+//now you have a local copy of the remote repository
+//created a new text file in my local copy with <name>.txt
+//check whether this file is added
+git status
+//not added files will appear in red
+
+git add <file_name>
+//if you want to add red flag files
+
+git add *
+//local git is added with changes
+
+//commit local git with the added files
+git commit -m "message"
+//this commits your local changes
+
+//update your local changes to remote
+//initial setup to add remote repositories
+git remote add origin https://github.com/prahladamandla/testing.git
+//if you want to check what origins are available
+git remote -v
+//push changes to the remote branch
+git push -u <REMOTENAME> <LOCALBRANCHNAME>:<REMOTEBRANCHNAME>
+//change remote origins
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+//git create a local barnch
+git checkout -b [name_of_your_new_branch]
+//switch between branches in local
+git checkout <branch_name>
+//initialize local 
+//navigate to the folder and run this command
+git init
+git branch
+should show all the local branches of your repo. The starred branch is your current branch.
+
+List branch on local repository
+git branch 
+* master
+This output indicates there is a single branch, the master and the asterisk indicates it is currently active.
+
+Create a new feature branch in the repository
+$ git branch <feature_branch>
+
+Switch to the feature branch to work on it.
+$ git checkout <feature_branch>
+
+git checkout -b new-branch existing-branch
+
+The -b flag tells it to create a new branch at the same time. By default, the new branch is based upon whatever branch you were on.
+
+
+// List of all barnches
+git branch
+
+//Create new Branch
+git branch BRANCH_NAME
+ex: git branch Sprint1
+
+//Switch to new branch
+git checkout Sprint1
+
+//Create new branch and switch to branch
+git checkout -b new-branch existing-branch
+<<<<<<< HEAD
+=======
+
+>>>>>>> Sprint2
+git pull origin branch1
+git add . 
+git commit -m "Comment"
+
+git checkout Sprint1
+//Push new branch to remote repository
+git push origin <Branchname>
+ex: git push origin Sprint1
+
+
+===========================================================================================================================================================
+Delete Local Branch
+To delete the local branch use one of the following:
+
+$ git branch -d branch_name
+$ git branch -D branch_name
+
+The -d option is an alias for --delete, which only deletes the branch if it has already been fully merged in its upstream branch. 
+You could also use -D, which is an alias for --delete --force, which deletes the branch "irrespective of its merged status."
+
+Delete Remote Branch
+1) git push <remote_name> --delete <branch_name>
+ex: git push origin --delete Sprint1
+
+=============================================================================================================================================================
+Merging Branches
+
+First checkout to master branch,
+
+git checkout master
+Now pull the latest changes in master,
+
+git pull origin master
+Merge with the testBranch
+
+git merge testBranch
+Push the changes to master
+
+git push origin master
+
+================================================================================================================================================================

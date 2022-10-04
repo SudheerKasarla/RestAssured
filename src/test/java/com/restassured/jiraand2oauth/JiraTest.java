@@ -5,7 +5,6 @@ import java.io.File;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import io.cucumber.java.en.Given;
 import io.restassured.RestAssured;
 import io.restassured.filter.session.SessionFilter;
 import io.restassured.http.ContentType;

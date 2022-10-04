@@ -1,9 +1,8 @@
 Feature: Application login
 
-
-
-  Scenario: Home page default login
-    Given User is on NetBanking landing page
-    When User login in the login page
-		And I should see default Home page
-		Then I should see Home page
+  Scenario: Validate login functionality of OrangeHCm
+    Given I launch the OrangeHCM application
+    When I enter Username as "Admin"
+    And I enter password as "Admin123"
+    And I click on sigin button
+    Then I should see HomePage of OrangeHCM
