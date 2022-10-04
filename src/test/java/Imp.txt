@@ -15,9 +15,13 @@ https://qaautomation.expert/2020/11/26/cucumber-tutorials/
 
 https://dummy.restapiexample.com/#
 https://demoqa.com/swagger/#/
+https://restful-booker.herokuapp.com/apidoc/index.html
+https://json-schema.org/specification.html
 
-
-
+================Java=======
+https://howtodoinjava.com/
+https://www.baeldung.com/java-8-new-features
+https://www.baeldung.com/java-8-streams
 
 
 ==============Sample Project Url====================
@@ -42,6 +46,95 @@ TYPESCRIPT FOR BEGINNERS (udemy.com)
 
 ==========================Automation Practice Url's========================
 https://rahulshettyacademy.com/AutomationPractice/
+
+
+
+https://learndevtestops.com/
+
+
+RestAssured
+
+----------------
+
+https://www.liquid-technologies.com/online-json-to-schema-converter
+https://www.jsonschemavalidator.net/
+https://json-schema.org/understanding-json-schema/reference/string.html#string
+https://json-schema.org/
+https://jsonschema.net/app/schemas/0
+https://www.mockaroo.com/
+https://designer.mocky.io/design/confirmation
+https://jsoneditoronline.org/
+https://www.baeldung.com/rest-assured-tutorial
+https://qaautomation.expert/2021/05/22/rest-assured-tutorials/
+https://dummy.restapiexample.com/#
+
+
+
+
+====================Apache Maven Url============
+https://www.vogella.com/tutorials/ApacheMaven/article.html
+
+
+====================Git in Eclipse==============
+https://www.vogella.com/tutorials/EclipseGit/article.html
+https://www.varonis.com/blog/how-to-merge-in-git
+
+
+====================Cucumber ==============================
+https://cucumber.io/docs/cucumber/api/?lang=java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===============Cypress============
+Cypress -Modern Automation Testing from Scratch + Frameworks==Rahul Shetty,Karthik KK
+
+Cypress: Web Automation Testing from Zero to Hero---Artem Bondar
+
+
+Git Complete: The definitive, step-by-step guide to Git===Jason Taylor
+
+Jenkins, From Zero To Hero: Become a DevOps Jenkins Master======Ricardo Andre Gonzalez Gomez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
